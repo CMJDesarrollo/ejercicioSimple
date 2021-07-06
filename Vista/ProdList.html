@@ -1,0 +1,36 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-end">
+			<div class="box">
+				<div class="box-body">
+					<button class="btn btn-primary" style="margin-right: 5px;" name="btnAdd" id="btnAdd" onclick="javascript:location.href='?mod=ProdAdd'">
+						<i class="fas fa-plus"></i> Nueva entrada
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="card">
+		<div class="card-header bg-primary">
+			<h4 class="card-title text-light">Listado de productos</h4>
+		</div>
+		<div class="card-body">
+			<table class="table table-striped table-hover" id="prods">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Código</th>
+						<th>Descripción corta</th>
+						<th>Descripción larga</th>
+						<th>Unidad de medida</th>
+						<th>Precio</th>
+					</tr>
+				</thead>
+				<tbody>
+					__PRODLIST__
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

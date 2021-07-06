@@ -1,0 +1,64 @@
+<div class="row">
+	<div class="col-md-12 text-end">
+		<div class="box">
+			<div class="box-body">
+				<button class="btn btn-primary" style="margin-right: 5px;" name="btnAdd" id="btnAdd" onclick="javascript:location.href='?mod='">
+					<i class="fas fa-backward"></i> Regresar
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<br>
+
+<div class="card">
+	<div class="card-header bg-primary">
+		<h4 class="card-title text-light">Agregar producto</h4>
+	</div>
+	<div class="card-body">
+		<form class="form-control" action="" method="POST">
+			<div class="row mb-3">
+				<div class="col-md-6">
+					<label for="codigo" class="form-label">Código</label>
+					<input class="form-control" type="text" name="codigo" id="codigo" placeholder="Código">
+				</div>
+				<div class="col-md-6">
+					<label for="desc_corta" class="form-label">Descripción corta</label>
+					<input class="form-control" type="text" name="desc_corta" id="desc_corta" placeholder="Descripción corta">
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-12">
+					<label for="desc_larga" class="form-label">Descripción larga</label>
+					<textarea name="desc_larga" id="desc_larga" rows=3 class="form-control"></textarea>
+				</div>
+			</div>
+			<div class="row mb-5">
+				<div class="col-md-6">
+					<label for="um" class="form-label">Unidad de medida</label>
+					<select class="form-select" name="um" id="um">
+						<option value="" disabled selected>-- Seleccione --</option>
+						__OPT_UM__
+					</select>
+				</div>
+				<div class="col-md-6">
+					<label for="precio" class="form-label">Precio</label>
+					<div class="input-group">
+						<span class="input-group-text" id="basic-addon1">$</span>
+						<input class="form-control" type="number" name="precio" id="precio" placeholder="0.00">
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="text-end d-grid col-md-6 mx-auto">
+					<button class="btn btn-secondary block" id="btnAdd">Agregar</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<script>
+    const addProd = "addProd";
+</script>
