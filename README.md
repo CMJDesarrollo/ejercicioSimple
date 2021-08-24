@@ -9,6 +9,8 @@ Contiene funconales éstos 2 módulos (Crear y Editar).
 
 Está desarrollado bajo PHP basado en un esquema diseñado por medio de Namespaces y Clases, en las que se tienen las librerías básicas necesarias.
 
+[Vista previa]
+
 ## Tecnologías
 
 Para la elaboración de este sitio se utilizó:
@@ -24,3 +26,4 @@ Para la elaboración de este sitio se utilizó:
 GNU GENERAL PUBLIC LICENSE
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+[Vista previa]: <https://unobinario.com/cmj/ejemplo_basico/>
